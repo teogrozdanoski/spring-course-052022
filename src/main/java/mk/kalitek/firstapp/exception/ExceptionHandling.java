@@ -1,7 +1,11 @@
-package mk.kalitek.firstapp.exception.domain;
+package mk.kalitek.firstapp.exception;
 
 import com.auth0.jwt.exceptions.TokenExpiredException;
 import mk.kalitek.firstapp.domain.HttpResponse;
+import mk.kalitek.firstapp.exception.domain.EmailExistException;
+import mk.kalitek.firstapp.exception.domain.EmailNotFoundException;
+import mk.kalitek.firstapp.exception.domain.UserNotFoundException;
+import mk.kalitek.firstapp.exception.domain.UsernameExistException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.error.ErrorController;
